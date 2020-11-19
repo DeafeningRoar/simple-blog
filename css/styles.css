@@ -1,0 +1,141 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.main {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  min-height: 10px;
+  background: linear-gradient(0deg, rgba(34, 89, 195, 1) 0%, rgba(170, 45, 253, 1) 100%);
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.navbar-content {
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-menu {
+  font-size: larger;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.navbar-menu-item-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-menu-item-active {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.container {
+  width: 100%;
+  max-width: 970px;
+  height: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.row {
+  width: 100%;
+  position: relative;
+}
+
+ul.navbar-menu {
+  padding-inline-start: 0px;
+}
+
+.contact-form {
+  width: 50%;
+  height: 100%;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#submit {
+  width: 50%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.photo-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 60%;
+  text-align: center;
+  margin: 1rem;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-footer {
+  padding: 5px 20px 20px 20px;
+}
+
+.card-footer p {
+  margin: 0;
+}
